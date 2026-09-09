@@ -57,15 +57,9 @@ TARGET_REPO="your_github_username/your_repository_name"
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
 
 --------------------------------------------
 # 🚀 AI Agent Project (JUST FOR FUN!) 🤖✨
