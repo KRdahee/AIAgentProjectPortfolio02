@@ -5,6 +5,17 @@
 ㅇ **(목적)** 오픈소스 및 사내 개발 유지보수 과정에서 발생하는 고비용·저효율의 단순 반복 버그 수정 업무를 AI 에이전트 루프를 통해 혁신하는 엔드투엔드(End-to-End) 자동화 시스템 구축
 ㅇ **(핵심 역량)** LLM 기반 코드 오케스트레이션을 활용하되, 클린 아키텍처 원칙과 TDD(테스트 주도 개발) 방법론을 시스템적으로 강제하여 코드 무결성 및 시스템 설계 역량 입증
 
+## 🛠️ Tech Stack
+- **AI / LLM**: Google Gemini API, LangChain, LangGraph
+- **Backend**: FastAPI, Python
+- **Database / VectorDB**: ChromaDB / FAISS
+- **Infrastructure**: Docker, Git
+
+## ✨ Key Features
+1. **Multi-Agent Collaboration**: 역할별로 분화된 에이전트들이 상호 작용하며 복잡한 태스크를 단계별로 해결
+2. **Context-Aware RAG**: 사내 문서 및 코드를 Vector Search 기반으로 정확히 탐색하여 환각(Hallucination) 현상 최소화
+3. **Robust API Backend**: FastAPI 기반의 고성능 비동기 API 엔드포인트 제공
+
 ---
 
 ## □ 핵심 운영 개념 및 비즈니스 임팩트
