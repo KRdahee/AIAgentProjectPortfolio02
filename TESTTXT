@@ -1,0 +1,27 @@
+이슈 내용 (요구사항):
+중복된 성적 계산 및 출력 로직을 개선하고, 비즈니스 로직과 입출력(Print) 책임을 분리해주세요. 또한 입력값에 대한 예외 처리와 단위 테스트 코드를 함께 작성해주세요.
+
+레거시 코드 (legacy_code):
+Python
+def process_students_data(data_list):
+    # 성적 계산과 출력, 예외 처리가 뒤섞인 레거시 함수
+    results = []
+    for item in data_list:
+        name = item['name']
+        scores = item['scores']
+
+        # 하드코딩된 계산 로직
+        total = sum(scores)
+        avg = total / len(scores)
+
+        if avg >= 90:
+            grade = 'A'
+        elif avg >= 80:
+            grade = 'B'
+        else:
+            grade = 'C'
+
+        print(f"학생 이름: {name}, 총점: {total}, 평균: {avg:.2f}, 등급: {grade}")
+        results.append({'name': name, 'avg': avg, 'grade': grade})
+
+    return results
