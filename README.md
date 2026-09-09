@@ -62,7 +62,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 <br>
 
 --------------------------------------------
-# 🚀 AI Agent Project (JUST FOR FUN!) 🤖✨
+# 🚀 AI Agent Project Portfolio (JUST FOR FUN!) 🤖✨
 
 https://app.notion.com/p/AI-3cf9ecfae81380269147d1d831ff99d2?source=copy_link -> 천천히 notion 정리중!
 
