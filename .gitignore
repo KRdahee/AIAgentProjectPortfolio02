@@ -1,0 +1,37 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python compilation and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Testing and caching
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
